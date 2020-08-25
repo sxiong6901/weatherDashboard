@@ -18,6 +18,7 @@ You will be presented with a color that indicates whether the conditions are fav
 Happy Traveling!
 
 ```
-https://github.com/sxiong6901/weatherDashboard/blob/master/Capture.PNG?raw=true
+![myimage-alt-tag](https://github.com/sxiong6901/weatherDashboard/blob/master/Capture.PNG?raw=true)
+
 
 https://sxiong6901.github.io/weatherDashboard/
