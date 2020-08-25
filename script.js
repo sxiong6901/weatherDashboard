@@ -116,17 +116,17 @@ function getCurrent(city) {
         }).then(function (uvresponse) {
             var uvindex = uvresponse.value;
             var bgcolor;
-            if (uvindex <= 3) {
-                bgcolor = "green";
-            }
-            else if (uvindex >= 3 || uvindex <= 6) {
+            if (uvindex <= 5) {
                 bgcolor = "yellow";
             }
-            else if (uvindex >= 6 || uvindex <= 8) {
+            else if (uvindex >= 5 || uvindex <= 7) {
                 bgcolor = "orange";
             }
-            else {
+            else if (uvindex >= 8 || uvindex <= 10) {
                 bgcolor = "red";
+            }
+            else {
+                bgcolor = "purple";
             }
             var uvdisp = $("<p>").attr("class", "card-text").text("UV Index: ");
             uvdisp.append($("<span>").attr("class", "uvindex").attr("style", ("background-color:" + bgcolor)).text(uvindex));
