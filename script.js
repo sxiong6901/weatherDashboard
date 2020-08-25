@@ -119,10 +119,10 @@ function getCurrent(city) {
             if (uvindex <= 5) {
                 bgcolor = "yellow";
             }
-            else if (uvindex >= 5 || uvindex <= 7) {
+            else if (uvindex >= 5.1 || uvindex <= 7) {
                 bgcolor = "orange";
             }
-            else if (uvindex >= 8 || uvindex <= 10) {
+            else if (uvindex >= 7.1 || uvindex <= 10) {
                 bgcolor = "red";
             }
             else {	           
