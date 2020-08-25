@@ -100,13 +100,13 @@ function getCurrent(city) {
         cardBody.append($("<h3>").attr("class", "card-title").text(response.name));
 
         var currdate = moment(response.dt, "X").format("dddd, MMMM Do YYYY, h:mm a");
-        cardBody.append($("<p>").attr("class", "card-text").append($("<med>").attr("class", "text-muted").text("Last updated: " + currdate)));
+        cardBody.append($("<div>").attr("class", "card-text").append($("<med>").attr("class", "text-muted").text("Last updated: " + currdate)));
 
-        cardBody.append($("<p>").attr("class", "card-text").html("Temperature: " + response.main.temp + " &#8457;"));
+        cardBody.append($("<div>").attr("class", "card-text").html("Temperature: " + response.main.temp + " &#8457;"));
 
-        cardBody.append($("<p>").attr("class", "card-text").text("Humidity: " + response.main.humidity + "%"));
+        cardBody.append($("<div>").attr("class", "card-text").text("Humidity: " + response.main.humidity + "%"));
 
-        cardBody.append($("<p>").attr("class", "card-text").text("Wind Speed: " + response.wind.speed + " MPH"));
+        cardBody.append($("<div>").attr("class", "card-text").text("Wind Speed: " + response.wind.speed + " MPH"));
 
    
         var UV = "https://api.openweathermap.org/data/2.5/uvi?appid=e4283046ac7e921e996fd8d9a65b97aa&lat=" + response.coord.lat + "&lon=" + response.coord.lat;

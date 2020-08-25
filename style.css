@@ -17,10 +17,12 @@
 
 .one-fifth:first-child {
     margin-left: 0px;
+
 }
 
 .one-fifth:last-child{
     margin-right: 0px;
+
 }
 
 .forecast {
@@ -28,20 +30,31 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 10px 0px;
+
 }
 
 #searchbtn{
     padding: 6px 5px 0px 5px;
-
+    background-color: midnightblue;
+    border-radius: .2rem;
 }
 
 .card-body {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 2rem;
+    border-radius: 2rem;
+
 }
 
 .text-muted {
     font-family: 'Times New Roman', Times, serif;
+
 }
 
+.card-header {
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
