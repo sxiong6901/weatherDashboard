@@ -126,7 +126,7 @@ function getCurrent(city) {
                 bgcolor = "red";
             }
             else {
-                bgcolor = "purple";
+                bgcolor = "violet";
             }
             var uvdisp = $("<p>").attr("class", "card-text").text("UV Index: ");
             uvdisp.append($("<span>").attr("class", "uvindex").attr("style", ("background-color:" + bgcolor)).text(uvindex));
