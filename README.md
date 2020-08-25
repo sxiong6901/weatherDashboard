@@ -16,5 +16,6 @@ And your previous search history will show on the left.
 
 You will be presented with a color that indicates whether the conditions are favorable, moderate, or severe
 
+Happy Traveling!
 
 ```
