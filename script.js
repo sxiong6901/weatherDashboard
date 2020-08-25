@@ -76,7 +76,7 @@ function getCurrent(city) {
         }
     }).then(function (response) {
 
-        var currCard = $("<div>").attr("class", "card bg-white");
+        var currCard = $("<div>").attr("class", "card bg-light");
         $("#earthforecast").append(currCard);
 
 
@@ -89,10 +89,10 @@ function getCurrent(city) {
 
         var iconURL = "https://openweathermap.org/img/wn/" + response.weather[0].icon + "@4x.png";
 
-        var imgDiv = $("<div>").attr("class", "col-md-2").append($("<img>").attr("src", iconURL).attr("class", "card-img"));
+        var imgDiv = $("<div>").attr("class", "col-md-4").append($("<img>").attr("src", iconURL).attr("class", "card-img"));
         cardRow.append(imgDiv);
 
-        var textDiv = $("<div>").attr("class", "col-md-10");
+        var textDiv = $("<div>").attr("class", "col-md-8");
         var cardBody = $("<div>").attr("class", "card-body");
         textDiv.append(cardBody);
 
