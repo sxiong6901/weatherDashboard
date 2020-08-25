@@ -125,9 +125,10 @@ function getCurrent(city) {
             else if (uvindex >= 8 || uvindex <= 10) {
                 bgcolor = "red";
             }
-            else if (uvindex > 10) {
-                bgcolor = "violet";
+            else {	           
+                bgcolor = "purple";	                
             }
+           
             var uvdisp = $("<p>").attr("class", "card-text").text("UV Index: ");
             uvdisp.append($("<span>").attr("class", "uvindex").attr("style", ("background-color:" + bgcolor)).text(uvindex));
             cardBody.append(uvdisp);
