@@ -117,16 +117,16 @@ function getCurrent(city) {
             var uvindex = uvresponse.value;
             var bgcolor;
             if (uvindex <= 5) {
-                bgcolor = "yellow";
+                bgcolor = "green";
             }
             else if (uvindex >= 5.1 || uvindex <= 7) {
-                bgcolor = "orange";
+                bgcolor = "yellow";
             }
             else if (uvindex >= 7.1 || uvindex <= 10) {
-                bgcolor = "red";
+                bgcolor = "orange";
             }
             else {	           
-                bgcolor = "purple";	                
+                bgcolor = "red";	                
             }
            
             var uvdisp = $("<p>").attr("class", "card-text").text("UV Index: ");
