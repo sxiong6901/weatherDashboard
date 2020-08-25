@@ -1,1 +1,28 @@
 
+.searcharea {
+    background-color: #e6f2ff;
+    padding: 10px;
+}
+
+
+.one-fifth {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.one-fifth:first-child {
+    margin-left: 0px;
+}
+
+.one-fifth:last-child{
+    margin-right: 0px;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
