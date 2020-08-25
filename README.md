@@ -9,7 +9,7 @@ Humidity
 Wind Speed
 UV Index
 
-You will also have a 5 day forecaste with the date and icon representing the weather condition, temperature and humidity.
+You will also have a 5 day forecast with the date and icon representing the weather condition, temperature and humidity.
 
 And your previous search history will show on the left.
 
